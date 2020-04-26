@@ -1,0 +1,125 @@
+.sub{
+    position: relative;
+    background-color: #383732;
+    color: #a0a0a0;
+    height: 230px;
+    top: 24px;
+    padding: 15px 0px 0px 0px;
+}
+
+.sub__lists{
+    display: flex;
+    padding-top: 20px;
+    border-top: solid 1px #43413D;
+    width: 100%;
+}
+
+.sub__identity{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    width: 50%;
+}
+
+.sub__left{
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.sub__left .sub__ment{
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.m-icon{
+    width: 150px;
+    height: 75px;
+}
+
+.sub__contact{
+    padding-right: 70px;
+    width: 50%;
+}
+
+.sub__right{
+    padding-bottom:20px;
+}
+
+.sub__right i{
+    width: 10%;
+    margin: 5px;
+}
+.sub__mail,
+.sub__phone{
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.sub__right .sub__ment{
+    display: block;
+    font-size: 12px;
+}
+.sub__phone{
+    margin-top:20px;
+}
+
+.sub__icon{
+    display:flex;
+}
+
+.sub__scroll{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-right: 5px;
+}
+
+.sub__sns{
+    display: flex;
+}
+
+.t{
+    display: flex;
+    color: black;
+    padding: 20px 20px 20px 20px;
+}
+
+.b{
+    display: flex;
+    justify-content: center;
+    color: #383732;
+    padding: 20px 20px 0px 20px;
+}
+
+@keyframes tAnimation{
+    from{
+        color:black;
+    }
+    to{
+        color:purple;
+    }
+}
+
+
+.t:hover{
+    animation: tAnimation 0.5s ease-in-out forwards;
+}
+
+.scroll{
+    display: flex;
+    color: black;
+    padding: 20px 20px 20px 20px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-right: 5px;
+}
