@@ -1,4 +1,307 @@
 .about__first{
     background-image: url(../images/oriental-tiles.png);
-    height:676px;
+    height: 740px;
+    padding: 190px 295px 90px 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g-icon{
+    width: 360px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.about__first-ment{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.about__first{
+    animation: delay 0.5s ease-out forwards;
+}
+
+.g-icon,
+.about__first-ment {
+    animation: delay 2s ease-out forwards;
+}
+
+.about__second{
+    display: flex;
+    justify-content: center;
+    height: 535px;
+    background-color: #FFFFFF;
+    padding: 100px 0px 160px 0px;
+}
+
+.about__second-content,
+.about__second-content1{
+    width: 410px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__second-content{
+    background-color: #F6F6F6;
+}
+
+.about__second-content1{
+    background-color: #FFFFFF;
+}
+
+.about__second-content:hover,
+.about__second-content1:hover{
+    animation: colorchange 0.5s ease-in-out forwards;
+}
+
+.second-title{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+
+.divider1{
+    display: flex;
+    justify-content: center;
+}
+
+.hr__narrow1{
+    width: 85%;
+    border-color: purple;
+}
+
+.second-content{
+    display:flex;
+    justify-content: center;
+    line-height: 20px;
+    font-size: 16px;
+    opacity: 0.8;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.about__third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
+    padding: 0px 310px 65px 310px;
+}
+
+.third-title{
+    font-size: 35px;
+}
+
+.bb-icon{
+    padding-top: 30px;
+    width: 890px;
+    height: 580px;
+}
+
+.about__forth{
+    display: flex;
+    flex-direction: column;
+    height: 1570px;
+    padding: 0px 155px 70px 155px;
+}
+
+.forth-title{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.about__forth-content{
+    margin-top: 50px;
+}
+
+.about__forth-subtitle{
+    font-size: 27px;
+    opacity: 0.6;
+}
+
+.about__forth-ment{
+    width: 1194px;
+    height: 76px;
+    margin: 20px 0px 45px 0px;
+    padding: 25px 0px 0px 25px;
+    background-image: url(../images/comma.png);
+    line-height: 30px;
+}
+
+.forth-content{
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.forth-content1{
+    font-size: 13px;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-weight: 500;
+}
+
+.about__forth-lists{
+    padding-bottom: 10px;
+}
+
+.forth__lists-first,
+.forth__lists-second{
+    display: flex;
+    padding: 20px 0px;
+}
+
+.forth__lists{
+    display: flex;
+    width: 403px;
+    height: 165px;
+}
+
+@keyframes forthhover{
+    from{
+        transform: none;
+    }
+    to{
+        background-image: none;
+        background-color: #662483;
+        color: white;
+    }
+}
+
+.about__lists i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    width: 130px;
+    height: 130px;
+    color: #662483;
+    background-image: url(../images/line.png);
+    border: solid 0.5px rgb(214, 214, 214);
+    border-radius: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0 18px 36px -18px,
+    rgba(0, 0, 0, 0.025) 0 -12px 36px -8px;
+}
+
+.about__lists i:hover{
+    animation: forthhover 0.4s ease-in-out forwards;
+}
+
+.about__forth-discription{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    padding: 10px 15px 0px 20px;
+}
+
+.forth-discription__title{
+    font-size: 23px;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+}
+
+.forth-discription__content{
+    line-height: 20px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.about__fifth{
+    padding-bottom: 100px;
+}
+
+.fifth-title{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.about__fifth-floor{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.blank .left__subtitle,
+.blank .right__subtitle{
+    min-height: 20px;
+}
+
+.blank .left__content-container,
+.blank .right__content-container{
+    background-image: url(../images/line.png);
+    min-height: 70%;
+}
+
+.left{
+    width: 35%;
+    margin-right: 55px;
+}
+
+.right {
+    width: 35%;
+    margin-left: 55px;
+}
+
+.left__subtitle,
+.right__subtitle{
+    font-size: 28px;
+    margin: 30px 0px;
+}
+
+.right__content-container,
+.left__content-container{
+right:0;
+    
+}
+
+.left__subtitle,
+.left__content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right__subtitle,
+.right__content{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left__content{
+    line-height: 30px;
+    font-size: 15px;
+    opacity: 0.7;
+    text-align: end;
+}
+
+.right__content{
+    line-height: 30px;
+    font-size: 15px;
+    opacity: 0.7;
+    text-align: start;
+}
+
+
+.divider2{
+    padding-top: 0px;
+}
+
+.hr__narrow2{
+    width: 100%;
+    border-color: purple;
+    height: 1.5px;
 }
